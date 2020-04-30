@@ -103,15 +103,17 @@ class LinkedList:
             pointer = self.head
             while pointer.nextval is not None and pointer.nextval.data != val:
                 pointer = pointer.nextval
-
-            # if value isn't found in the list, do nothing
             if pointer.nextval is None: 
                 return
             else:
                 temp = pointer.nextval 
                 pointer.nextval = temp.nextval 
                 temp = None 
+                self.size -= 1
                 return 
+    
+    def get_size(self):
+        return self.size 
         
            
 # testing
@@ -124,9 +126,11 @@ if __name__ == "__main__":
     print("Added elements to list")
     print("Contents of list:")
     linked_list.print_list()
+    print("size: " + str(linked_list.get_size()))
     linked_list.remove_node(2)
     linked_list.remove_node(1)
     linked_list.remove_node(4)
     print("Removed node")
     print("Contents of list:")
     linked_list.print_list()
+    print("size: " + str(linked_list.get_size()))
