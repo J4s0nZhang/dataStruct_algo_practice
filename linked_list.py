@@ -31,11 +31,12 @@ class LinkedList:
         while pointer is not None:
             print(pointer.data)
             pointer = pointer.nextval 
-
-    def add_node(self, val=None):
-        """ Inserts a node at the end of the list 
+    
+    
+    def append_node(self, val=None):
+        """ Inserts a node to the end of the linked list
         """
-        new_node = Node(val)    
+        new_node = Node(val)
         if self.head is None:
             self.head = new_node
             self.size += 1
@@ -47,6 +48,44 @@ class LinkedList:
             tail.nextval = new_node
             tail = new_node
             self.size += 1
+        return
+
+
+    def insert_node(self, val=None, pos_val=None):
+        """ Inserts a node at specified location
+        If no location is given or no such location found,
+        insert node at the end of the list 
+        
+        Args:
+            val: the data value of the new node 
+            pos_val: the value of the node that the new node should be inserted after
+        """ 
+        if pos_val is not None: 
+            pointer = self.head
+            search = True
+            while search:
+                if pointer is None:
+                    search = False
+                elif pointer.data == pos_val:
+                    search = False
+                else:
+                    pointer = pointer.nextval
+
+            if pointer.nextval is not None:
+                new_node = Node(val)  
+                temp = pointer.nextval 
+                pointer.nextval = new_node
+                new_node.nextval = temp 
+                self.size += 1
+            else:
+                # position value was not found, appending val to end of list
+                self.append_node(val) 
+        else:
+            # no positional value given and list isn't empty, append val to end of list 
+            self.append_node(val)
+        
+        return
+
 
     def remove_node(self, val=None):
         # if the list is empty do nothing 
@@ -79,9 +118,9 @@ class LinkedList:
 if __name__ == "__main__":
     # testing add and print 
     linked_list = LinkedList()
-    linked_list.add_node(1)
-    linked_list.add_node(2)
-    linked_list.add_node(4)
+    linked_list.insert_node(1)
+    linked_list.append_node(2)
+    linked_list.insert_node(4,1)
     print("Added elements to list")
     print("Contents of list:")
     linked_list.print_list()
