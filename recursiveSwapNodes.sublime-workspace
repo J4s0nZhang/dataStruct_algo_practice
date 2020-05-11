@@ -1,0 +1,354 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"insert",
+				"insertPQ"
+			],
+			[
+				"graph",
+				"graphEdges"
+			],
+			[
+				"di",
+				"dijkstra"
+			],
+			[
+				"adj",
+				"adjacenctNodes"
+			],
+			[
+				"under",
+				"undirectedGraph"
+			],
+			[
+				"adjace",
+				"adjacencyList"
+			],
+			[
+				"u",
+				"undirectedGraph"
+			],
+			[
+				"adja",
+				"adjacencyList"
+			],
+			[
+				"vector",
+				"vector\tstd::vector"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"SE",
+				"searchQtree"
+			],
+			[
+				"NW",
+				"NW"
+			],
+			[
+				"mult",
+				"multCoeff"
+			],
+			[
+				"Linked",
+				"LinkedList"
+			],
+			[
+				"Test",
+				"TestPlus"
+			],
+			[
+				"de",
+				"dequeue"
+			],
+			[
+				"_",
+				"_tasks"
+			],
+			[
+				"queue",
+				"_queueSize"
+			],
+			[
+				"q",
+				"_queueSize"
+			],
+			[
+				"num",
+				"_numItems"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"polynomial",
+				"Polynomial"
+			],
+			[
+				"init",
+				"initialVelocity"
+			],
+			[
+				"ini",
+				"initialVelocity"
+			],
+			[
+				"binar",
+				"binarySearchHelper"
+			],
+			[
+				"quick",
+				"quickSortHelper"
+			],
+			[
+				"maxloaction",
+				"maxlocation"
+			],
+			[
+				"maxloc",
+				"maxlocation"
+			],
+			[
+				"initia",
+				"initialVelocity"
+			],
+			[
+				"pr",
+				"projectileDestination"
+			],
+			[
+				"initial",
+				"initialAngle"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ren",
+				"Rename File"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jasonzhang/Downloads/CSV_color_style.py",
+		"/Users/jasonzhang/Downloads/tesellation_v4.py",
+		"/Users/jasonzhang/Documents/Goldspot_Projects/core_inspector_data/original_core_images/Image-NMAll.svg",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/undirectedGraph.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/j894zhan_p4/undirectedGraph.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/j894zhan_p4 2/undirectedGraph.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/priorityQ.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/priorityQ.h",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/temp.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/undirectedGraphtest.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/undirectedGraph.h",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/linkedList.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L4/linkedList.h",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L3/undirectedGraph.h",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/j894zhan_p2/openht.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/Hashtable.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/test1.txt",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/openhttest.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/linkedList.h",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/linkedList.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/unorderedht.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/L2/unorderedhttest.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/ECE 250 programs/Classes.h",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/ECE 250 programs/polynomialtest.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/ECE 250 programs/Polynomial.cpp",
+		"/Users/jasonzhang/Desktop/ECE Material/ECE 2A/ECE 250 programs/Polynomial.h",
+		"/Users/jasonzhang/Library/Application Support/minecraft/saves/elmos world/advancements/b0abc1cf-98f5-4dee-93ad-4ee275e551e1.json",
+		"/Users/jasonzhang/Desktop/C-classAssignments/ComplexNum.cpp",
+		"/Users/jasonzhang/Downloads/Neo.cpp",
+		"/Users/jasonzhang/Desktop/C-classAssignments/Linkedlist.cpp",
+		"/Users/jasonzhang/Desktop/C-classAssignments/Polynomial.cpp",
+		"/Users/jasonzhang/Desktop/C-classAssignments/ClassyPoly.cpp",
+		"/Users/jasonzhang/Desktop/C-classAssignments/Task.cpp",
+		"/Users/jasonzhang/Downloads/SNC-fraction-class.cpp",
+		"/Users/jasonzhang/Desktop/ECE 150-ch2/2-array-min.cpp",
+		"/Users/jasonzhang/Desktop/C++programs/Lightcontrol",
+		"/Users/jasonzhang/Desktop/C++programs/BinarySearch.cpp",
+		"/Users/jasonzhang/Desktop/C++programs/Projectile.cpp",
+		"/Users/jasonzhang/Desktop/C++programs/Drag.cpp",
+		"/Users/jasonzhang/Desktop/C++programs/QuickSort.cpp",
+		"/Users/jasonzhang/Desktop/C++programs/Selection.cpp"
+	],
+	"find":
+	{
+		"height": 45.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "recursiveSwapNodes.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

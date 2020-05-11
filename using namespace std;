@@ -1,0 +1,35 @@
+using namespace std; 
+
+struct ListNode {
+      int val;
+      ListNode *next;
+      ListNode() : val(0), next(nullptr) {}
+      ListNode(int x) : val(x), next(nullptr) {}
+      ListNode(int x, ListNode *next) : val(x), next(next) {}
+ };
+
+ListNode* swapNodes(ListNode* head){
+        ListNode *temp = head->next->next;
+        head->next = head;
+        head = temp; 
+        
+        return head;
+    }
+    ListNode* combineLists(ListNode* front, ListNode* rear){
+        ListNode* pointer = front;
+        while (pointer->next != NULL){
+            pointer = pointer->next;
+        }
+        pointer->next = rear;
+        return front; 
+    }
+    ListNode* swapPairs(ListNode* head) {
+        if (head->next == NULL) {
+            return head;
+        }
+        ListNode* front = swapNodes(head);
+        ListNode* rear = swapPairs(head->next->next);
+        return combineLists(front, rear);
+        
+        
+    }
